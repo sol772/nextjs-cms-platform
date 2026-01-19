@@ -84,9 +84,9 @@ export const CACHE_TIME = {
  * 로컬 스토리지 키
  */
 export const STORAGE_KEYS = {
-    AUTH: "likeweb-auth-storage",
-    BOARD: "likeweb-board-storage",
-    SITE: "likeweb-site-storage",
+    AUTH: "cms-auth-storage",
+    BOARD: "cms-board-storage",
+    SITE: "cms-site-storage",
 } as const;
 
 // ============================================================================

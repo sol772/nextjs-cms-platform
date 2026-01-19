@@ -64,7 +64,7 @@ export const useSiteStore = create<SiteStore>()(
             setSiteInfoData: (data: SiteInfoItem) => set({ siteInfoData: data }),
         }),
         {
-            name: "likeweb-site-storage",
+            name: "cms-site-storage",
             storage: createJSONStorage(() => localStorage),
         },
     ),

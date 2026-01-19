@@ -128,7 +128,7 @@ export const useBoardStore = create<BoardStore>()(
             setRefreshBoardMenu: (refresh: boolean) => set({ refreshBoardMenu: refresh }),
         }),
         {
-            name: "likeweb-board-storage",
+            name: "cms-board-storage",
             storage: createJSONStorage(() => customStorage),
         },
     ),

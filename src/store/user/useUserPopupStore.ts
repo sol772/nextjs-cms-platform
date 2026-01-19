@@ -13,17 +13,17 @@ export const useUserPopupStore = create<UserPopupStore>()(
         closedPopups: new Set(),
         setClosedPopup: index =>
             set(state => ({
-                closedPopups: new Set(Array.from(state.closedPopups).concat(`likeweb-popup-${index}`)),
+                closedPopups: new Set(Array.from(state.closedPopups).concat(`cms-popup-${index}`)),
             })),
         setOneDayClosedPopup: index => {
             const tomorrow = new Date();
             tomorrow.setDate(tomorrow.getDate() + 1);
             tomorrow.setHours(0, 0, 0, 0);
-            localStorage.setItem(`likeweb-popup-${index}-hide-until`, tomorrow.toISOString());
+            localStorage.setItem(`cms-popup-${index}-hide-until`, tomorrow.toISOString());
             get().setClosedPopup(index);
         },
         isPopupClosed: index => {
-            const popupKey = `likeweb-popup-${index}`;
+            const popupKey = `cms-popup-${index}`;
             const hideUntil = localStorage.getItem(`${popupKey}-hide-until`);
 
             if (hideUntil) {

@@ -80,7 +80,7 @@ const store = create<AuthStore>()(
             clearUser: () => set({ loginUser: initialLoginUser }),
         }),
         {
-            name: "likeweb-auth-storage",
+            name: "cms-auth-storage",
             storage: createJSONStorage(() => customStorage),
         },
     ),
@@ -89,7 +89,7 @@ const store = create<AuthStore>()(
 // 다른 탭/페이지에서 localStorage 변경 감지
 if (typeof window !== "undefined") {
     window.addEventListener("storage", event => {
-        if (event.key === "likeweb-auth-storage") {
+        if (event.key === "cms-auth-storage") {
             const encryptedData = event.newValue;
             const currentUser = store.getState().loginUser;
             
