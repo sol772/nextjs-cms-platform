@@ -1,0 +1,20 @@
+/* dnd-kit-sortable-tree */
+.dnd_category .menu {
+    display: none;
+}
+
+.dnd_category .dnd-sortable-tree_simple_wrapper .dnd-sortable-tree_simple_tree-item-collapse_button {
+    background: url("../../images/console/arrowDownGray.svg") no-repeat center;
+    background-size: 24px;
+    transform: rotate(-180deg);
+    align-self: auto;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    right: 24px;
+}
+
+.dnd_category .dnd-sortable-tree_simple_wrapper .dnd-sortable-tree_folder_simple-item-collapse_button-collapsed {
+    transform: rotate(0);
+}

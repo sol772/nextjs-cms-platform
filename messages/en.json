@@ -1,0 +1,242 @@
+{
+    "Language": {
+        "KR": "Korean",
+        "EN": "English",
+        "JP": "Japanese",
+        "CH": "Chinese"
+    },
+    "Header": {
+        "login": "Login",
+        "logout": "Logout"
+    },
+    "Footer": {
+        "ceo": "CEO",
+        "representativePhone": "Representative Phone",
+        "businessNumber": "Business Registration Number",
+        "onlineSalesNumber": "Online Sales Registration Number",
+        "email": "Email",
+        "address": "Address",
+        "faxNumber": "Fax Number"
+    },
+    "Common": {
+        "noData": "No data available.",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "preparing": "Under preparation.",
+        "error": "An unknown error occurred."
+    },
+    "Popup": {
+        "close": "Close",
+        "dontShowToday": "Don't show this again today"
+    },
+    "Login": {
+        "title": "Login",
+        "email": {
+            "label": "Email",
+            "placeholder": "Please enter your email.",
+            "error": "Please enter your email."
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Please enter your password.",
+            "error": "Please enter your password."
+        },
+        "forgotPassword": "Forgot Password",
+        "submit": "Login",
+        "signup": "Sign Up",
+        "error": "An unknown error occurred."
+    },
+    "ForgotPassword": {
+        "title": "Reset Password",
+        "description": "Please enter the email address you used to sign up.",
+        "descriptionSub": "We will send you a password reset email.",
+        "email": {
+            "placeholder": "Please enter your email.",
+            "error": "Please enter your email.",
+            "invalidError": "Please enter a valid email format."
+        },
+        "submit": "Reset Password",
+        "complete": {
+            "title": "Email Sent",
+            "message": "Password reset link has been sent.",
+            "description": "We have sent a password reset link",
+            "descriptionSub": "to the email address you entered when you signed up.",
+            "alt": "Email sent"
+        },
+        "backToMain": "Back to Main"
+    },
+    "ResetPassword": {
+        "title": "Reset Password",
+        "password": {
+            "label": "Password",
+            "placeholder": "6-50 characters including letters and numbers",
+            "error": "Please enter your password.",
+            "maxLengthError": "Password must be 50 characters or less.",
+            "minLengthError": "Password must be at least 6 characters.",
+            "letterError": "Password must include letters.",
+            "numberError": "Password must include numbers."
+        },
+        "passwordConfirm": {
+            "label": "Confirm Password",
+            "placeholder": "Please enter your password again.",
+            "error": "Please enter your password.",
+            "mismatchError": "Passwords do not match."
+        },
+        "submit": "Reset Password",
+        "complete": {
+            "title": "Password Reset Complete",
+            "message": "Your password has been reset successfully.",
+            "description": "Please log in with your new password.",
+            "alt": "Password reset complete"
+        }
+    },
+    "Signup": {
+        "title": "Sign Up",
+        "name": {
+            "label": "Name",
+            "placeholder": "Please enter your name.",
+            "error": "Please enter your name."
+        },
+        "email": {
+            "label": "Email",
+            "placeholder": "Please enter your email.",
+            "error": "Please enter your email.",
+            "invalidError": "Please enter a valid email format."
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "6-50 characters including letters and numbers",
+            "error": "Please enter your password.",
+            "maxLengthError": "Password must be 50 characters or less.",
+            "minLengthError": "Password must be at least 6 characters.",
+            "letterError": "Password must include letters.",
+            "numberError": "Password must include numbers."
+        },
+        "passwordConfirm": {
+            "label": "Confirm Password",
+            "placeholder": "Please enter your password again.",
+            "error": "Please enter your password.",
+            "mismatchError": "Passwords do not match."
+        },
+        "mobile": {
+            "label": "Mobile Number",
+            "placeholder": "Please enter your mobile number.",
+            "error": "Please enter your mobile number."
+        },
+        "mobileAuth": {
+            "sendButton": "Send Verification Code",
+            "verifyButton": "Verify Code",
+            "codePlaceholder": "Please enter the verification code.",
+            "error": "Please complete mobile number verification.",
+            "timeoutError": "The verification code has expired. <br/>Please request a new verification code."
+        },
+        "submit": "Sign Up",
+        "complete": {
+            "title": "Sign Up Complete",
+            "message": "Your registration is complete. <br/>Welcome!",
+            "description": "Start using our service now!",
+            "alt": "Sign up complete"
+        },
+        "backToMain": "Back to Main"
+    },
+    "PostList": {
+        "total": "Total",
+        "count": "items",
+        "inquiry": "Inquiry",
+        "post": "Post",
+        "register": "Register",
+        "noReadPermission": "You do not have read permission.",
+        "searchPlaceholder": "Enter search keywords."
+    },
+    "PostDetail": {
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "reply": "Reply",
+        "delete": "Delete",
+        "attachments": "Attachments",
+        "comment": {
+            "placeholder": "Please enter a comment.",
+            "register": "Register",
+            "required": "Please enter a comment.",
+            "deleteConfirm": "Are you sure you want to delete?",
+            "createSuccess": "Your comment has been posted.",
+            "editSuccess": "Your comment has been updated.",
+            "deleteSuccess": "Your comment has been deleted."
+        },
+        "prevPost": "Previous",
+        "nextPost": "Next",
+        "backToList": "Back to list"
+    },
+    "PostForm": {
+        "inquiryTitle": "1:1 Inquiry Registration",
+        "createTitle": "Create Post",
+        "name": {
+            "label": "Name",
+            "placeholder": "Please enter your name.",
+            "error": "Please enter your name."
+        },
+        "email": {
+            "label": "Email",
+            "placeholder": "Please enter your email.",
+            "error": "Please enter your email.",
+            "invalidError": "Please enter a valid email format."
+        },
+        "title": {
+            "label": "Title",
+            "placeholder": "Please enter a title (max 50 characters).",
+            "error": "Please enter a title.",
+            "maxLengthError": "Title must be 50 characters or less."
+        },
+        "contents": {
+            "error": "Please enter the content."
+        },
+        "type": {
+            "label": "Type",
+            "required": "Please select a type."
+        },
+        "previewImage": {
+            "label": "Preview Image"
+        },
+        "fileAttachment": {
+            "label": "File Attachment"
+        },
+        "secretPost": {
+            "label": "Secret Post"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Please enter your password.",
+            "maxLengthError": "Password must be 50 characters or less.",
+            "required": "Please enter your password.",
+            "requiredForUnlock": "Please enter your existing password to unlock the secret post."
+        },
+        "captcha": {
+            "label": "Security Code",
+            "placeholder": "Please enter the security code.",
+            "error": "Please enter the security code."
+        },
+        "save": "Save",
+        "saveConfirm": "Are you sure you want to save?",
+        "fileDeleteConfirm": "Are you sure you want to permanently delete this file? <br/>This action cannot be undone.",
+        "deleted": "Deleted successfully.",
+        "updated": "Updated successfully.",
+        "created": "Created successfully."
+    },
+    "SecretPostAuthPop": {
+        "title": "Enter Password",
+        "description": "This is a secret post. <br/>Please enter the password.",
+        "password": {
+            "placeholder": "Please enter the password.",
+            "error": "Please enter the password."
+        },
+        "submit": "Verify Password"
+    },
+    "FileUpload": {
+        "dragAndDrop": "Drag and drop files here.",
+        "fileUpload": "File Upload",
+        "previewImage": "Preview Image",
+        "delete": "Delete",
+        "maxFiles": "You can attach up to {maxLength} file(s).",
+        "tooltip": "&middot; Maximum 10 files can be attached.<br/> &middot; Individual file size: 5MB or less<br/> &middot; Total capacity: 50MB or less<br/> &middot; Supported file formats:<br/> &nbsp;&nbsp;- Images: PNG, JPG, JPEG, GIF<br/> &nbsp;&nbsp;- Documents: PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, HWP, TXT<br/> &nbsp;&nbsp;- Compressed: ZIP<br/> &nbsp;&nbsp;- Video: MPG, MPEG, AVI, WMV, ASF, ASX, MP4<br/> &nbsp;&nbsp;- Other: Hancom Office Excel"
+    }
+}

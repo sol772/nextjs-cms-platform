@@ -1,0 +1,242 @@
+{
+    "Language": {
+        "KR": "韩语",
+        "EN": "英语",
+        "JP": "日语",
+        "CH": "中文"
+    },
+    "Header": {
+        "login": "登录",
+        "logout": "登出"
+    },
+    "Footer": {
+        "ceo": "代表",
+        "representativePhone": "代表电话",
+        "businessNumber": "营业执照号",
+        "onlineSalesNumber": "网络销售许可证号",
+        "email": "电子邮件",
+        "address": "地址",
+        "faxNumber": "传真号码"
+    },
+    "Common": {
+        "noData": "没有数据。",
+        "confirm": "确认",
+        "cancel": "取消",
+        "preparing": "准备中。",
+        "error": "发生未知错误。"
+    },
+    "Popup": {
+        "close": "关闭",
+        "dontShowToday": "今天不再显示"
+    },
+    "Login": {
+        "title": "登录",
+        "email": {
+            "label": "电子邮件",
+            "placeholder": "请输入您的电子邮件。",
+            "error": "请输入您的电子邮件。"
+        },
+        "password": {
+            "label": "密码",
+            "placeholder": "请输入您的密码。",
+            "error": "请输入您的密码。"
+        },
+        "forgotPassword": "忘记密码",
+        "submit": "登录",
+        "signup": "注册",
+        "error": "发生未知错误。"
+    },
+    "ForgotPassword": {
+        "title": "重置密码",
+        "description": "请输入您注册时使用的电子邮件。",
+        "descriptionSub": "我们将向您发送密码重置邮件。",
+        "email": {
+            "placeholder": "请输入您的电子邮件。",
+            "error": "请输入您的电子邮件。",
+            "invalidError": "请输入正确的电子邮件格式。"
+        },
+        "submit": "重置密码",
+        "complete": {
+            "title": "邮件已发送",
+            "message": "密码重置链接已发送。",
+            "description": "我们已向您注册时输入的",
+            "descriptionSub": "电子邮件地址发送了密码重置链接。",
+            "alt": "邮件已发送"
+        },
+        "backToMain": "返回主页"
+    },
+    "ResetPassword": {
+        "title": "重置密码",
+        "password": {
+            "label": "密码",
+            "placeholder": "6-50个字符,包含字母和数字",
+            "error": "请输入您的密码。",
+            "maxLengthError": "密码必须为50个字符或更少。",
+            "minLengthError": "密码必须至少6个字符。",
+            "letterError": "密码必须包含字母。",
+            "numberError": "密码必须包含数字。"
+        },
+        "passwordConfirm": {
+            "label": "确认密码",
+            "placeholder": "请再次输入您的密码。",
+            "error": "请输入您的密码。",
+            "mismatchError": "密码不匹配。"
+        },
+        "submit": "重置密码",
+        "complete": {
+            "title": "密码重置完成",
+            "message": "您的密码已成功重置。",
+            "description": "请使用新密码登录。",
+            "alt": "密码重置完成"
+        }
+    },
+    "Signup": {
+        "title": "注册",
+        "name": {
+            "label": "姓名",
+            "placeholder": "请输入您的姓名。",
+            "error": "请输入您的姓名。"
+        },
+        "email": {
+            "label": "电子邮件",
+            "placeholder": "请输入您的电子邮件。",
+            "error": "请输入您的电子邮件。",
+            "invalidError": "请输入正确的电子邮件格式。"
+        },
+        "password": {
+            "label": "密码",
+            "placeholder": "6-50个字符,包含字母和数字",
+            "error": "请输入您的密码。",
+            "maxLengthError": "密码必须为50个字符或更少。",
+            "minLengthError": "密码必须至少6个字符。",
+            "letterError": "密码必须包含字母。",
+            "numberError": "密码必须包含数字。"
+        },
+        "passwordConfirm": {
+            "label": "确认密码",
+            "placeholder": "请再次输入您的密码。",
+            "error": "请输入您的密码。",
+            "mismatchError": "密码不匹配。"
+        },
+        "mobile": {
+            "label": "手机号码",
+            "placeholder": "请输入您的手机号码。",
+            "error": "请输入您的手机号码。"
+        },
+        "mobileAuth": {
+            "sendButton": "发送验证码",
+            "verifyButton": "验证验证码",
+            "codePlaceholder": "请输入验证码。",
+            "error": "请完成手机号码验证。",
+            "timeoutError": "验证码已过期。 <br/>请重新请求验证码。"
+        },
+        "submit": "注册",
+        "complete": {
+            "title": "注册完成",
+            "message": "您的注册已完成。 <br/>欢迎！",
+            "description": "立即开始使用我们的服务！",
+            "alt": "注册完成"
+        },
+        "backToMain": "返回主页"
+    },
+    "PostList": {
+        "total": "共",
+        "count": "个",
+        "inquiry": "咨询",
+        "post": "帖子",
+        "register": "注册",
+        "noReadPermission": "您没有读取权限。",
+        "searchPlaceholder": "输入搜索关键词。"
+    },
+    "PostDetail": {
+        "edit": "编辑",
+        "cancel": "取消",
+        "reply": "回复",
+        "delete": "删除",
+        "attachments": "附件",
+        "comment": {
+            "placeholder": "请输入评论。",
+            "register": "注册",
+            "required": "请输入评论。",
+            "deleteConfirm": "确定要删除吗？",
+            "createSuccess": "评论已发布。",
+            "editSuccess": "评论已修改。",
+            "deleteSuccess": "评论已删除。"
+        },
+        "prevPost": "上一篇",
+        "nextPost": "下一篇",
+        "backToList": "返回列表"
+    },
+    "PostForm": {
+        "inquiryTitle": "1:1咨询注册",
+        "createTitle": "创建帖子",
+        "name": {
+            "label": "姓名",
+            "placeholder": "请输入您的姓名。",
+            "error": "请输入您的姓名。"
+        },
+        "email": {
+            "label": "电子邮件",
+            "placeholder": "请输入您的电子邮件。",
+            "error": "请输入您的电子邮件。",
+            "invalidError": "请输入正确的电子邮件格式。"
+        },
+        "title": {
+            "label": "标题",
+            "placeholder": "请输入标题（最多50个字符）。",
+            "error": "请输入标题。",
+            "maxLengthError": "标题必须为50个字符或更少。"
+        },
+        "contents": {
+            "error": "请输入内容。"
+        },
+        "type": {
+            "label": "类型",
+            "required": "请选择类型。"
+        },
+        "previewImage": {
+            "label": "预览图片"
+        },
+        "fileAttachment": {
+            "label": "文件附件"
+        },
+        "secretPost": {
+            "label": "私密帖子"
+        },
+        "password": {
+            "label": "密码",
+            "placeholder": "请输入您的密码。",
+            "maxLengthError": "密码必须为50个字符或更少。",
+            "required": "请输入您的密码。",
+            "requiredForUnlock": "请输入您现有的密码以解锁私密帖子。"
+        },
+        "captcha": {
+            "label": "安全码",
+            "placeholder": "请输入安全码。",
+            "error": "请输入安全码。"
+        },
+        "save": "保存",
+        "saveConfirm": "确定要保存吗？",
+        "fileDeleteConfirm": "确定要永久删除此文件吗？ <br/>此操作无法撤销。",
+        "deleted": "已删除。",
+        "updated": "已更新。",
+        "created": "已创建。"
+    },
+    "SecretPostAuthPop": {
+        "title": "输入密码",
+        "description": "这是一篇私密帖子。 <br/>请输入密码。",
+        "password": {
+            "placeholder": "请输入密码。",
+            "error": "请输入密码。"
+        },
+        "submit": "验证密码"
+    },
+    "FileUpload": {
+        "dragAndDrop": "请拖放文件到这里。",
+        "fileUpload": "文件上传",
+        "previewImage": "预览图片",
+        "delete": "删除",
+        "maxFiles": "最多可以附加{maxLength}个文件。",
+        "tooltip": "&middot; 最多只能附加10个文件。<br/> &middot; 单个文件大小: 5MB以下<br/> &middot; 总容量: 50MB以下<br/> &middot; 可附加的文件格式:<br/> &nbsp;&nbsp;- 图像: PNG, JPG, JPEG, GIF<br/> &nbsp;&nbsp;- 文档: PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, HWP, TXT<br/> &nbsp;&nbsp;- 压缩: ZIP<br/> &nbsp;&nbsp;- 视频: MPG, MPEG, AVI, WMV, ASF, ASX, MP4<br/> &nbsp;&nbsp;- 其他: 韩文Office Excel"
+    }
+}

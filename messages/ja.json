@@ -1,0 +1,242 @@
+{
+    "Language": {
+        "KR": "韓国語",
+        "EN": "英語",
+        "JP": "日本語",
+        "CH": "中国語"
+    },
+    "Header": {
+        "login": "ログイン",
+        "logout": "ログアウト"
+    },
+    "Footer": {
+        "ceo": "代表者",
+        "representativePhone": "代表電話",
+        "businessNumber": "事業者番号",
+        "onlineSalesNumber": "通信販売番号",
+        "email": "メールアドレス",
+        "address": "住所",
+        "faxNumber": "FAX番号"
+    },
+    "Common": {
+        "noData": "データがありません。",
+        "confirm": "確認",
+        "cancel": "キャンセル",
+        "preparing": "準備中です。",
+        "error": "不明なエラーが発生しました。"
+    },
+    "Popup": {
+        "close": "閉じる",
+        "dontShowToday": "今日は表示しない"
+    },
+    "Login": {
+        "title": "ログイン",
+        "email": {
+            "label": "メールアドレス",
+            "placeholder": "メールアドレスを入力してください。",
+            "error": "メールアドレスを入力してください。"
+        },
+        "password": {
+            "label": "パスワード",
+            "placeholder": "パスワードを入力してください。",
+            "error": "パスワードを入力してください。"
+        },
+        "forgotPassword": "パスワードを忘れた場合",
+        "submit": "ログイン",
+        "signup": "会員登録",
+        "error": "不明なエラーが発生しました。"
+    },
+    "ForgotPassword": {
+        "title": "パスワード再設定",
+        "description": "登録時に使用したメールアドレスを入力してください。",
+        "descriptionSub": "パスワード再設定メールをお送りします。",
+        "email": {
+            "placeholder": "メールアドレスを入力してください。",
+            "error": "メールアドレスを入力してください。",
+            "invalidError": "正しいメールアドレス形式を入力してください。"
+        },
+        "submit": "パスワード再設定",
+        "complete": {
+            "title": "メール送信",
+            "message": "パスワード再設定リンクを送信しました。",
+            "description": "お客様が登録時に入力されたメールアドレスに",
+            "descriptionSub": "パスワード再設定リンクを送信しました。",
+            "alt": "メール送信"
+        },
+        "backToMain": "メインに戻る"
+    },
+    "ResetPassword": {
+        "title": "パスワード再設定",
+        "password": {
+            "label": "パスワード",
+            "placeholder": "英数字を含む6文字以上50文字以下",
+            "error": "パスワードを入力してください。",
+            "maxLengthError": "パスワードは50文字以下で入力してください。",
+            "minLengthError": "パスワードは6文字以上である必要があります。",
+            "letterError": "パスワードには英字を含める必要があります。",
+            "numberError": "パスワードには数字を含める必要があります。"
+        },
+        "passwordConfirm": {
+            "label": "パスワード確認",
+            "placeholder": "パスワードを再度入力してください。",
+            "error": "パスワードを入力してください。",
+            "mismatchError": "パスワードが一致しません。"
+        },
+        "submit": "パスワード再設定",
+        "complete": {
+            "title": "パスワード再設定完了",
+            "message": "パスワード再設定が完了しました。",
+            "description": "新しいパスワードでログインしてください。",
+            "alt": "パスワード再設定完了"
+        }
+    },
+    "Signup": {
+        "title": "会員登録",
+        "name": {
+            "label": "お名前",
+            "placeholder": "お名前を入力してください。",
+            "error": "お名前を入力してください。"
+        },
+        "email": {
+            "label": "メールアドレス",
+            "placeholder": "メールアドレスを入力してください。",
+            "error": "メールアドレスを入力してください。",
+            "invalidError": "正しいメールアドレス形式を入力してください。"
+        },
+        "password": {
+            "label": "パスワード",
+            "placeholder": "英数字を含む6文字以上50文字以下",
+            "error": "パスワードを入力してください。",
+            "maxLengthError": "パスワードは50文字以下で入力してください。",
+            "minLengthError": "パスワードは6文字以上である必要があります。",
+            "letterError": "パスワードには英字を含める必要があります。",
+            "numberError": "パスワードには数字を含める必要があります。"
+        },
+        "passwordConfirm": {
+            "label": "パスワード確認",
+            "placeholder": "パスワードを再度入力してください。",
+            "error": "パスワードを入力してください。",
+            "mismatchError": "パスワードが一致しません。"
+        },
+        "mobile": {
+            "label": "携帯電話番号",
+            "placeholder": "携帯電話番号を入力してください。",
+            "error": "携帯電話番号を入力してください。"
+        },
+        "mobileAuth": {
+            "sendButton": "認証番号送信",
+            "verifyButton": "認証番号認証",
+            "codePlaceholder": "認証番号を入力してください。",
+            "error": "携帯電話番号の認証を完了してください。",
+            "timeoutError": "有効期限が切れました。 <br/>認証番号を再度送信してください。"
+        },
+        "submit": "会員登録",
+        "complete": {
+            "title": "会員登録完了",
+            "message": "会員登録が完了しました。 <br/>ようこそ！",
+            "description": "今すぐサービスをご利用ください！",
+            "alt": "会員登録完了"
+        },
+        "backToMain": "メインに戻る"
+    },
+    "PostList": {
+        "total": "合計",
+        "count": "件",
+        "inquiry": "お問い合わせ",
+        "post": "投稿",
+        "register": "登録",
+        "noReadPermission": "読み取り権限がありません。",
+        "searchPlaceholder": "検索キーワードを入力してください。"
+    },
+    "PostDetail": {
+        "edit": "編集",
+        "cancel": "キャンセル",
+        "reply": "返信",
+        "delete": "削除",
+        "attachments": "添付ファイル",
+        "comment": {
+            "placeholder": "コメントを入力してください。",
+            "register": "登録",
+            "required": "コメントを入力してください。",
+            "deleteConfirm": "削除しますか？",
+            "createSuccess": "コメントが登録されました。",
+            "editSuccess": "コメントが修正されました。",
+            "deleteSuccess": "コメントが削除されました。"
+        },
+        "prevPost": "前の記事",
+        "nextPost": "次の記事",
+        "backToList": "一覧に戻る"
+    },
+    "PostForm": {
+        "inquiryTitle": "1:1お問い合わせ登録",
+        "createTitle": "投稿作成",
+        "name": {
+            "label": "お名前",
+            "placeholder": "お名前を入力してください。",
+            "error": "お名前を入力してください。"
+        },
+        "email": {
+            "label": "メールアドレス",
+            "placeholder": "メールアドレスを入力してください。",
+            "error": "メールアドレスを入力してください。",
+            "invalidError": "正しいメールアドレス形式を入力してください。"
+        },
+        "title": {
+            "label": "タイトル",
+            "placeholder": "タイトルを50文字以下で入力してください。",
+            "error": "タイトルを入力してください。",
+            "maxLengthError": "タイトルは50文字以下で入力してください。"
+        },
+        "contents": {
+            "error": "内容を入力してください。"
+        },
+        "type": {
+            "label": "タイプ",
+            "required": "タイプを設定してください。"
+        },
+        "previewImage": {
+            "label": "プレビュー画像登録"
+        },
+        "fileAttachment": {
+            "label": "ファイル添付"
+        },
+        "secretPost": {
+            "label": "非公開投稿設定"
+        },
+        "password": {
+            "label": "パスワード",
+            "placeholder": "パスワードを入力してください。",
+            "maxLengthError": "パスワードは50文字以下で入力してください。",
+            "required": "パスワードを入力してください。",
+            "requiredForUnlock": "非公開投稿を解除するために既存のパスワードを入力してください。"
+        },
+        "captcha": {
+            "label": "セキュリティコード入力",
+            "placeholder": "セキュリティコードを入力してください。",
+            "error": "セキュリティコードを入力してください。"
+        },
+        "save": "保存",
+        "saveConfirm": "保存しますか？",
+        "fileDeleteConfirm": "ファイルを永久削除しますか？ <br/>削除後は復元できません。",
+        "deleted": "削除されました。",
+        "updated": "更新されました。",
+        "created": "登録されました。"
+    },
+    "SecretPostAuthPop": {
+        "title": "パスワード入力",
+        "description": "この投稿は非公開です。 <br/>パスワードを入力してください。",
+        "password": {
+            "placeholder": "パスワードを入力してください。",
+            "error": "パスワードを入力してください。"
+        },
+        "submit": "パスワード確認"
+    },
+    "FileUpload": {
+        "dragAndDrop": "ファイルをドラッグ＆ドロップしてください。",
+        "fileUpload": "ファイル添付",
+        "previewImage": "プレビュー画像",
+        "delete": "削除",
+        "maxFiles": "最大{maxLength}個まで添付できます。",
+        "tooltip": "&middot; 最大10個のファイルのみ添付可能です。<br/> &middot; 個別ファイルサイズ: 5MB以下<br/> &middot; 総容量: 50MB以下<br/> &middot; 添付可能なファイル形式:<br/> &nbsp;&nbsp;- 画像: PNG, JPG, JPEG, GIF<br/> &nbsp;&nbsp;- 文書: PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, HWP, TXT<br/> &nbsp;&nbsp;- 圧縮: ZIP<br/> &nbsp;&nbsp;- 動画: MPG, MPEG, AVI, WMV, ASF, ASX, MP4<br/> &nbsp;&nbsp;- その他: ハンコムオフィス Excel"
+    }
+}

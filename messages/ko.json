@@ -1,0 +1,242 @@
+{
+    "Language": {
+        "KR": "한국어",
+        "EN": "영어",
+        "JP": "일본어",
+        "CH": "중국어"
+    },
+    "Header": {
+        "login": "로그인",
+        "logout": "로그아웃"
+    },
+    "Footer": {
+        "ceo": "대표자",
+        "representativePhone": "대표전화",
+        "businessNumber": "사업자번호",
+        "onlineSalesNumber": "통신판매번호",
+        "email": "이메일",
+        "address": "주소",
+        "faxNumber": "팩스번호"
+    },
+    "Common": {
+        "noData": "데이터가 없습니다.",
+        "confirm": "확인",
+        "cancel": "취소",
+        "preparing": "준비중입니다.",
+        "error": "알 수 없는 에러가 발생했습니다."
+    },
+    "Popup": {
+        "close": "닫기",
+        "dontShowToday": "오늘은 그만보기"
+    },
+    "Login": {
+        "title": "로그인",
+        "email": {
+            "label": "이메일",
+            "placeholder": "이메일을 입력해주세요.",
+            "error": "이메일을 입력해주세요."
+        },
+        "password": {
+            "label": "비밀번호",
+            "placeholder": "비밀번호를 입력해주세요.",
+            "error": "비밀번호를 입력해주세요."
+        },
+        "forgotPassword": "비밀번호 찾기",
+        "submit": "로그인",
+        "signup": "회원가입",
+        "error": "알 수 없는 에러가 발생했습니다."
+    },
+    "ForgotPassword": {
+        "title": "비밀번호 재설정",
+        "description": "가입했던 이메일을 입력해주세요.",
+        "descriptionSub": "비밀번호 재설정 메일을 보내드립니다.",
+        "email": {
+            "placeholder": "이메일을 입력해주세요.",
+            "error": "이메일을 입력해주세요.",
+            "invalidError": "올바른 이메일 형식을 입력해주세요."
+        },
+        "submit": "비밀번호 재설정",
+        "complete": {
+            "title": "이메일 전송",
+            "message": "비밀번호 재설정 링크를 전송하였습니다.",
+            "description": "고객님께서 회원가입 시 입력했던 이메일로",
+            "descriptionSub": "비밀번호 재설정 링크를 전송하였습니다.",
+            "alt": "이메일 전송"
+        },
+        "backToMain": "메인으로 돌아가기"
+    },
+    "ResetPassword": {
+        "title": "비밀번호 재설정",
+        "password": {
+            "label": "비밀번호",
+            "placeholder": "영문 + 숫자 포함 6자 이상 50자 이하",
+            "error": "비밀번호를 입력해주세요.",
+            "maxLengthError": "비밀번호는 50자 이하로 입력해주세요.",
+            "minLengthError": "비밀번호는 6자 이상이어야 합니다.",
+            "letterError": "비밀번호는 영문을 포함해야 합니다.",
+            "numberError": "비밀번호는 숫자를 포함해야 합니다."
+        },
+        "passwordConfirm": {
+            "label": "비밀번호 확인",
+            "placeholder": "비밀번호를 다시 입력해주세요.",
+            "error": "비밀번호를 입력해주세요.",
+            "mismatchError": "비밀번호가 일치하지 않습니다."
+        },
+        "submit": "비밀번호 재설정",
+        "complete": {
+            "title": "비밀번호 재설정 완료",
+            "message": "비밀번호 재설정이 완료되었습니다.",
+            "description": "변경된 비밀번호로 로그인해주세요.",
+            "alt": "비밀번호 재설정 완료"
+        }
+    },
+    "Signup": {
+        "title": "회원가입",
+        "name": {
+            "label": "이름",
+            "placeholder": "이름을 입력해주세요.",
+            "error": "이름을 입력해주세요."
+        },
+        "email": {
+            "label": "이메일",
+            "placeholder": "이메일을 입력해주세요.",
+            "error": "이메일을 입력해주세요.",
+            "invalidError": "올바른 이메일 형식을 입력해주세요."
+        },
+        "password": {
+            "label": "비밀번호",
+            "placeholder": "영문 + 숫자 포함 6자 이상 50자 이하",
+            "error": "비밀번호를 입력해주세요.",
+            "maxLengthError": "비밀번호는 50자 이하로 입력해주세요.",
+            "minLengthError": "비밀번호는 6자 이상이어야 합니다.",
+            "letterError": "비밀번호는 영문을 포함해야 합니다.",
+            "numberError": "비밀번호는 숫자를 포함해야 합니다."
+        },
+        "passwordConfirm": {
+            "label": "비밀번호 확인",
+            "placeholder": "비밀번호를 다시 입력해주세요.",
+            "error": "비밀번호를 입력해주세요.",
+            "mismatchError": "비밀번호가 일치하지 않습니다."
+        },
+        "mobile": {
+            "label": "휴대폰번호",
+            "placeholder": "휴대폰번호를 입력해주세요.",
+            "error": "휴대폰번호를 입력해주세요."
+        },
+        "mobileAuth": {
+            "sendButton": "인증번호 전송",
+            "verifyButton": "인증번호 인증",
+            "codePlaceholder": "인증번호를 입력해주세요.",
+            "error": "휴대폰번호 인증을 완료해주세요.",
+            "timeoutError": "유효시간이 지났습니다. <br/>인증번호를 다시 전송해주세요."
+        },
+        "submit": "회원가입",
+        "complete": {
+            "title": "회원가입 완료",
+            "message": "회원가입이 완료되었습니다. <br/>환영합니다!",
+            "description": "지금 바로 서비스를 이용해 보세요!",
+            "alt": "회원가입 완료"
+        },
+        "backToMain": "메인으로 돌아가기"
+    },
+    "PostList": {
+        "total": "총",
+        "count": "개",
+        "inquiry": "문의",
+        "post": "게시글",
+        "register": "등록",
+        "noReadPermission": "읽기 권한이 없습니다.",
+        "searchPlaceholder": "검색어를 입력해주세요."
+    },
+    "PostDetail": {
+        "edit": "수정",
+        "cancel": "취소",
+        "reply": "답글",
+        "delete": "삭제",
+        "attachments": "첨부파일",
+        "comment": {
+            "placeholder": "댓글을 입력해주세요.",
+            "register": "등록",
+            "required": "댓글을 입력해주세요.",
+            "deleteConfirm": "삭제하시겠습니까?",
+            "createSuccess": "댓글이 등록되었습니다.",
+            "editSuccess": "댓글이 수정되었습니다.",
+            "deleteSuccess": "댓글이 삭제되었습니다."
+        },
+        "prevPost": "이전글",
+        "nextPost": "다음글",
+        "backToList": "목록으로"
+    },
+    "PostForm": {
+        "inquiryTitle": "1:1 문의 등록",
+        "createTitle": "게시글 작성",
+        "name": {
+            "label": "이름",
+            "placeholder": "이름을 입력해주세요.",
+            "error": "이름을 입력해주세요."
+        },
+        "email": {
+            "label": "이메일",
+            "placeholder": "이메일을 입력해주세요.",
+            "error": "이메일을 입력해주세요.",
+            "invalidError": "이메일 형식이 올바르지 않습니다."
+        },
+        "title": {
+            "label": "제목",
+            "placeholder": "제목을 50자 이하로 입력해주세요.",
+            "error": "제목을 입력해주세요.",
+            "maxLengthError": "제목은 50자 이하로 입력해주세요."
+        },
+        "contents": {
+            "error": "내용을 입력해주세요."
+        },
+        "type": {
+            "label": "유형",
+            "required": "유형을 설정해주세요."
+        },
+        "previewImage": {
+            "label": "미리보기 등록"
+        },
+        "fileAttachment": {
+            "label": "파일 첨부"
+        },
+        "secretPost": {
+            "label": "비밀글 설정"
+        },
+        "password": {
+            "label": "비밀번호",
+            "placeholder": "비밀번호를 입력해주세요.",
+            "maxLengthError": "비밀번호는 50자 이하로 입력해주세요.",
+            "required": "비밀번호를 입력해주세요.",
+            "requiredForUnlock": "비밀글 해제를 위해 기존 비밀번호를 입력해주세요."
+        },
+        "captcha": {
+            "label": "보안문자 입력",
+            "placeholder": "보안문자를 입력해주세요.",
+            "error": "보안문자를 입력해주세요."
+        },
+        "save": "저장",
+        "saveConfirm": "저장하시겠습니까?",
+        "fileDeleteConfirm": "파일을 영구 삭제하시겠습니까? <br/>삭제 후에는 복구할 수 없습니다.",
+        "deleted": "삭제되었습니다.",
+        "updated": "수정되었습니다.",
+        "created": "등록되었습니다."
+    },
+    "SecretPostAuthPop": {
+        "title": "비밀번호 입력",
+        "description": "이 글은 비밀글입니다. <br/>비밀번호를 입력해주세요.",
+        "password": {
+            "placeholder": "비밀번호를 입력해주세요.",
+            "error": "비밀번호를 입력해주세요."
+        },
+        "submit": "비밀번호 확인"
+    },
+    "FileUpload": {
+        "dragAndDrop": "파일을 마우스로 끌어오세요.",
+        "fileUpload": "파일첨부",
+        "previewImage": "미리보기이미지",
+        "delete": "삭제",
+        "maxFiles": "최대 {maxLength}개까지 첨부 가능합니다.",
+        "tooltip": "&middot; 최대 10개의 파일만 첨부 가능합니다.<br/> &middot; 개별 파일 크기: 5MB 이하<br/> &middot; 총 용량: 50MB 이하<br/> &middot; 첨부 가능한 파일 형식:<br/> &nbsp;&nbsp;- 이미지: PNG, JPG, JPEG, GIF<br/> &nbsp;&nbsp;- 문서: PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, HWP, TXT<br/> &nbsp;&nbsp;- 압축: ZIP<br/> &nbsp;&nbsp;- 비디오: MPG, MPEG, AVI, WMV, ASF, ASX, MP4<br/> &nbsp;&nbsp;- 기타: 한컴오피스 Excel"
+    }
+}
