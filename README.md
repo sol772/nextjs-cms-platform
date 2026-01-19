@@ -112,7 +112,13 @@ NEXT_PUBLIC_BASE_URL=https://your-site-url.com
 
 ## Screenshots
 
-> API 서버가 필요하여 현재 데모 실행이 불가합니다.
+### Admin Console
+
+| Dashboard | Menu/Category Management |
+|-----------|--------------------------|
+| ![대시보드](./screenshots/admin-dashboard.png) | ![카테고리 관리](./screenshots/admin-category.png) |
+
+> 사용자단(User Area)은 프로젝트별 커스터마이징을 전제로 설계되어 기본 구조만 제공합니다.
 
 ## License
 
