@@ -168,9 +168,9 @@ export default function MaintList() {
                                 <div className="flex justify-center bg-white">
                                     <div
                                         className="relative max-w-[800px] cursor-pointer"
-                                        onClick={() => window.open("https://www.likeweb.co.kr/", "_blank")}
+                                        onClick={() => window.open(process.env.NEXT_PUBLIC_MAINT_URL, "_blank")}
                                     >
-                                        <img src="https://likeweb.co.kr/admin/banner2.jpg" alt="유지보수 서비스" />
+                                        <img src={process.env.NEXT_PUBLIC_MAINT_BANNER_URL} alt="유지보수 서비스" />
                                     </div>
                                 </div>
                                 <div className="flex items-center justify-between border-b border-[#D9D9D9] py-[8px]">

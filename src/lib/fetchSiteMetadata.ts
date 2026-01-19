@@ -1,11 +1,13 @@
 import { defaultMetadata } from "@/constants/common/metadata";
 
+import { SITE_ID } from "@/constants/common/site";
+
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "";
 
 export async function fetchSiteMetadata(language: string = "KR") {
     try {
-        const response = await fetch(`${API_BASE_URL}/v1/main/config/site/likeweb/${language}`, {
+        const response = await fetch(`${API_BASE_URL}/v1/main/config/site/${SITE_ID}/${language}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

@@ -14,4 +14,4 @@ export const LANGUAGES: Language[] = [
 ];
 
 // 사이트 아이디
-export const SITE_ID = process.env.NEXT_PUBLIC_SITE_ID || "likeweb";
+export const SITE_ID = process.env.NEXT_PUBLIC_SITE_ID || "example";
